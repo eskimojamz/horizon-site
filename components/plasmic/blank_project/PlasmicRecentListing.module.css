@@ -1,0 +1,161 @@
+.root {
+  flex-direction: column;
+  width: 350px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 16px;
+}
+.recentListingImgBlock {
+  width: 100%;
+  height: 233.33px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background: none;
+  flex-direction: column;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+.root:hover .recentListingImgBlock {
+  transition-property: all;
+  transition-duration: 0.3s;
+  filter: brightness(110%);
+}
+.img___9Y9Zg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  left: auto;
+  top: auto;
+  width: 100%;
+  height: 100%;
+  filter: none;
+  backdrop-filter: none;
+  object-position: 50% 50%;
+  min-width: 0;
+  min-height: 0;
+  -webkit-backdrop-filter: none;
+}
+.img___9Y9Zg > picture > img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.img___9Y9Zg > .__wab_img-spacer > img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.recentListingBottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 0;
+}
+.recentListingInfo {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  top: auto;
+  left: auto;
+  min-width: 0;
+}
+.recentListingInfo > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.recentListingInfo > :global(.__wab_flex-container) > *,
+.recentListingInfo > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.recentListingInfo > :global(.__wab_flex-container) > picture > img,
+.recentListingInfo
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 6px;
+}
+.price {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.slotTargetPrice {
+  font-family: Overlock;
+  font-size: 26px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  line-height: 100%;
+  letter-spacing: 0em;
+}
+.slotTargetPrice > *,
+.slotTargetPrice > .__wab_slot > *,
+.slotTargetPrice > .__wab_slot > .__wab_slot > *,
+.slotTargetPrice > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetPrice > picture > img,
+.slotTargetPrice > .__wab_slot > picture > img,
+.slotTargetPrice > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetPrice > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.root:hover .slotTargetPrice {
+  color: var(--token-ZTU4-fhnd);
+  font-weight: 700;
+}
+.address {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.slotTargetAddress {
+  font-family: Overlock;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+  line-height: 100%;
+  letter-spacing: 0em;
+}
+.details {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.slotTargetDetails {
+  font-family: Overlock;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(114, 114, 114, 1);
+  line-height: 100%;
+  letter-spacing: 0em;
+}

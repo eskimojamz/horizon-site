@@ -1,0 +1,57 @@
+.root {
+  width: auto;
+  height: 100%;
+  display: inline-flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 0;
+}
+.link {
+  transition-property: all;
+  transition-duration: 0.3s;
+  display: flex;
+  position: relative;
+  top: auto;
+  left: auto;
+  cursor: pointer;
+  justify-content: center;
+  flex-direction: row;
+}
+.slotTargetChildren {
+  font-family: Overlock;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(251, 167, 3, 1);
+  text-align: center;
+  line-height: 100%;
+  letter-spacing: 0em;
+}
+.slotTargetChildren > .__wab_text,
+.slotTargetChildren > .__wab_slot-string-wrapper,
+.slotTargetChildren > .__wab_slot > .__wab_text,
+.slotTargetChildren > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetChildren
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper {
+  text-decoration-line: none;
+}
+.slotTargetChildrenactiveState_active {
+  color: var(--token-ZTU4-fhnd);
+}
+.slotTargetChildrenactiveState_inactive {
+  color: var(--token-L-UIZ_k8P);
+}
+.root:hover .slotTargetChildren {
+  color: var(--token-PEiFSSP3z);
+}
+.rootactiveState_active:hover .slotTargetChildrenactiveState_active {
+  color: var(--token-ZTU4-fhnd);
+}

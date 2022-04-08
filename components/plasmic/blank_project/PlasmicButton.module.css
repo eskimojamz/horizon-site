@@ -1,0 +1,70 @@
+.root2 {
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  width: auto;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  background: var(--token-5w9eRGYtt);
+  padding-right: 12px;
+  padding-left: 12px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  border-radius: 3px;
+  border-style: none;
+}
+.root2color_navyDark {
+  background: var(--token-pBDDl09fR);
+}
+.root2color_primary {
+  background: var(--token-ZTU4-fhnd);
+  border-width: 1px;
+  border-style: none;
+}
+.root2size_large {
+  height: 45px;
+}
+.root2:hover {
+  cursor: pointer;
+}
+.root2color_navyDark:hover {
+  background: var(--token-RlJdlIiey);
+}
+.root2color_primary:hover {
+  background: var(--token-PEiFSSP3z);
+}
+.root2color_greyLight:hover {
+  background: var(--token-v7s9_0YNu);
+}
+.root2size_large_color_primary:hover {
+  box-shadow: 0px 4px 8px -4px #00000033;
+}
+.root2color_navyDark:active {
+  background: var(--token-1OxPqIf2t);
+}
+.root2color_primary:active {
+  background: var(--token-IOVqUtKf0);
+}
+.root2color_greyLight:active {
+  background: var(--token-s5jRH4KwI);
+}
+.btnContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.slotTargetChildren {
+  color: var(--token-tdfuckHnS);
+  font-family: Overlock;
+}
+.slotTargetChildrencolor_navyDark {
+  color: var(--token-NoeIqKZ_X);
+}
+.slotTargetChildrencolor_primary {
+  color: var(--token-NoeIqKZ_X);
+}
